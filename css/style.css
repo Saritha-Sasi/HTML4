@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    color: #f1f1f1;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+.header {
+    padding: 10px;
+    box-shadow: 0 .5rem .5rem -.5rem rgba(0, 0, 0, .1);
+    background: #fff;
+}
+header img{
+    height: 50px;
+}
+.nav-icon span {
+    width: 33px;
+    background: #000;
+    display: block;
+    margin: 6px auto;
+}
+.nav-icon span:first-child, .nav-icon span:last-child{
+    height:2px;
+}
+.nav-icon span:nth-child(2){
+    height:3px;
+}
+button.nav-menu {
+    background: #fff;
+    border: none;
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .loginBox {
+        padding: 0px 30px;
+    }
+    .left-section {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 992px) {
+    .loginBox {
+        padding: 0px 20px;
+    }
+    .left-section {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 575px) {
+    .left-main {
+        padding: 40px;
+        margin-bottom: 50px;
+        box-shadow: 0px 23px 25px -35px rgba(0, 0, 0, .5);
+    }
+}
